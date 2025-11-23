@@ -1,0 +1,58 @@
+/* Navbar עליון */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #3f51b5;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navButton {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.navButton:hover {
+  background-color: #303f9f;
+  transform: scale(1.05);
+}
+
+.navButton.active {
+  background-color: #ffeb3b;
+  color: #3f51b5;
+}
+
+/* Footer */
+.footer, .connectInfo {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+}
+
+/* גוף הדף */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
