@@ -5,8 +5,11 @@ import { HomePage } from './home-page/home-page';
 import { ProdactsListPage } from './prodact-list-page/prodact-list-page';
 import { ShoppingCartPage } from './shopping-cart-page/shopping-cart-page';
 import { CustomersService } from './services/customers';
+import { CommonModule } from '@angular/common';
+
 //מערך של קומפוננטות:
 declarations: [
+
  HomePage,
  ProdactsListPage,
  ShoppingCartPage
@@ -14,7 +17,11 @@ declarations: [
 imports: [
   BrowserModule,
   HttpClientModule,
-  CustomersService
+  CustomersService,
+  CommonModule
 ]
 //איזה קומפוננטה עולה ראשונה
 bootstrap: [HomePage]
+
+
+export class AppModule { }

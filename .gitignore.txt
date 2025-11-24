@@ -1,74 +1,29 @@
-############################
-# C# / .NET
-############################
-bin/
-obj/
-*.user
-*.suo
-*.cache
-*.log
-*.pdb
-*.mdb
-*.dbmdl
-*.jfm
-*.aps
-*.ncb
-*.opendb
-*.rdl.data
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.bak
-*.Backup
-*.log
-*.ldf
-*.mdf
-
 # Visual Studio
 .vs/
-*.userprefs
+*.user
+*.suo
 
-# NuGet
-packages/
-*.nupkg
-project.lock.json
+# Build folders
+bin/
+obj/
 
-############################
-# Angular / Node.js
-############################
+# C# / .NET
+*.dll
+*.pdb
+*.exe
+*.cache
+*.log
+
+# Angular / Node
 node_modules/
 dist/
-.tmp/
-.angular/
-.cache/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+tmp/
 
-############################
-# Environment configs
-############################
-.env
-*.env.*
-
-############################
 # SQL
-############################
 *.mdf
 *.ldf
 *.bak
 
-############################
-# OS Files
-############################
+# OS files
 Thumbs.db
 .DS_Store
-
-############################
-# Logs
-############################
-*.log
-logs/
-
-
